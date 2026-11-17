@@ -1,0 +1,31 @@
+{
+  "backtest_metrics": {
+    "initial_capital": 1000000.0,
+    "total_pnl_usd": 87055.0,
+    "roi_pct": 8.7055,
+    "sharpe_ratio": 57.45,
+    "sortino_ratio": 75.6,
+    "max_drawdown_usd": 9532.0,
+    "max_drawdown_pct": 0.9532,
+    "var_99_usd": -2170.0,
+    "cvar_99_usd": -2577.8,
+    "total_trades_executed": 2215,
+    "total_shares_traded": 221500,
+    "max_absolute_inventory": 2600,
+    "ending_inventory": -1500
+  },
+  "monte_carlo_metrics": {
+    "iterations": 10000,
+    "target_pnl_usd": 5000.0,
+    "mean_pnl_usd": 1780.97,
+    "median_pnl_usd": 1828.15,
+    "std_pnl_usd": 1169.48,
+    "percentile_5th_usd": -56.48,
+    "percentile_25th_usd": 1291.41,
+    "percentile_75th_usd": 2287.71,
+    "percentile_95th_usd": 3500.95,
+    "probability_achieving_target_pct": 1.14,
+    "probability_failure_loss_pct": 5.32,
+    "expected_downside_usd": -1065.78
+  }
+}
